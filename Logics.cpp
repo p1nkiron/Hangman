@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     //сама игра тип void game(int tries,string guess,string word, string input)
-    /сделать заголовочный файл и main-овский, это добавить в модуль
+    //сделать заголовочный файл и main-овский, это добавить в модуль
      void game(int tries,string guess,string word, string input) {
          while (tries > 0 && guess != word) {
              drawHangman(tries);
